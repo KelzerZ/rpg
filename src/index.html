@@ -2,8 +2,60 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="index.css" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
 	</head>
-	<body></body>
+	<body>
+		<div id="choosemove" class="el">
+			<b>choose move</b>
+			<div action="craft">
+				<span>craft :</span>
+				<button>bow</button>
+				<button>sword</button>
+				<button>sheild</button>
+				<button>food</button>
+			</div>
+			<div action="use">
+				<span>use :</span>
+				<button>bow</button>
+				<button>sword</button>
+				<button>sheild</button>
+			</div>
+			<div action="gain">
+				<span>gain :</span>
+				<button>wood</button>
+				<button>stone</button>
+				<button>food</button>
+			</div>
+		</div>
+		<div id="status" class="el">
+			<b>status</b>
+			<div>
+				<span>chosen move :</span>
+				<span id="chosenmove"></span>
+			</div>
+			<div>
+				<span>time left :</span>
+				<span id="time"></span>
+			</div>
+			<div>
+				<span>moves :</span>
+				<span id="movecount"></span>
+			</div>
+		</div>
+		<div class="el" id="yourstats">
+			<b>you</b>
+			<div id="player1"></div>
+		</div>
+		<div class="el" id="playerstats">
+			<b>opponent</b>
+			<div id="player2"></div>
+		</div>
+		<div class="el" id="movehistory">
+			<b>move history</b>
+			<div id="history"></div>
+		</div>
+		<script src="index.js"></script>
+	</body>
 </html>

@@ -1,0 +1,75 @@
+#status {
+	position: absolute;
+	left: 320px;
+	top: 20px;
+	width: 130px;
+	height: 250px;
+}
+#yourstats {
+	position: absolute;
+	left: 500px;
+	top: 20px;
+	width: 100px;
+	height: 250px;
+}
+#playerstats {
+	position: absolute;
+	left: 650px;
+	top: 20px;
+	width: 100px;
+	height: 250px;
+}
+#movehistory {
+	position: absolute;
+	left: 800px;
+	top: 20px;
+	width: 500px;
+	height: 250px;
+}
+#choosemove {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	width: 250px;
+	height: 250px;
+}
+.el {
+	border: 4px solid black;
+	padding: 10px;
+}
+b {
+	font-size: 125%;
+}
+span {
+	font-size: 115%;
+}
+button {
+	padding: 3px;
+}
+div {
+	padding: 10px;
+}
+#chosenmove {
+	font-size: 150%;
+	font-weight: 900;
+}
+#time {
+	font-size: 300%;
+	font-weight: 900;
+}
+#movecount {
+	font-size: 200%;
+	font-weight: 900;
+}
+#player1 {
+	font-size: 115%;
+}
+#player2 {
+	font-size: 115%;
+}
+#history {
+	font-size: 115%;
+}
+p {
+	margin: 0px;
+}
